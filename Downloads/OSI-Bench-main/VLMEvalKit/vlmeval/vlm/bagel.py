@@ -11,10 +11,10 @@ import torch
 from PIL import Image
 from typing import List, Dict, Any, Optional
 
-from vlmeval.vlm.base import BaseVLM
+from vlmeval.vlm.base import BaseModel
 
 
-class BAGEL(BaseVLM):
+class BAGEL(BaseModel):
     """
     BAGEL model wrapper for VLMEvalKit evaluation.
     

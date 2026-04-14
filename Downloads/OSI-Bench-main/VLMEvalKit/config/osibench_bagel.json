@@ -1,0 +1,21 @@
+{
+    "model": {
+        "BAGEL-7B-MoT": {
+            "model_path": "./pretrained_model/BAGEL-7B-MoT/",
+            "safetensor_path": "model.safetensors",
+            "max_length": 16
+        }
+    },
+    "data": {
+        "OSI-Bench": {
+            "class": "OSIBench",
+            "data_path": "./OSIBench_HF_Cache_full",
+            "dataset": "OSI-Bench",
+            "nframe": 32,
+            "download": true
+        }
+    },
+    "mode": "all",
+    "work_dir": "./outputs/osibench",
+    "nproc": 8
+}
